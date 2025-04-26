@@ -1,0 +1,50 @@
+body {
+    margin: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343434;
+    background-color: #fdfdff;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 50px 0px;
+}
+
+table {
+    width: 100%;
+    margin: 50px 0px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1.5px solid #ddd;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.rounded-table thead tr th:first-child {
+    border-top-left-radius: 8.5px;
+}
+
+.rounded-table thead tr th:last-child {
+    border-top-right-radius: 8.5px;
+}
+
+.rounded-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8.5px;
+}
+
+.rounded-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8.5px;
+}
