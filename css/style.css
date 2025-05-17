@@ -11,9 +11,11 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 50px;
+    font-weight: 800;
     margin: 80px 0px;
     text-align: center;
+    text-shadow: 0px 6px 4px #1C1A3E40;
 }
 
 table {
